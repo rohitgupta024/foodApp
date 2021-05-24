@@ -14,7 +14,6 @@ const APP_KEY= "2954d4ba91c919094393578dd59924fe";
 
 
 
-
 const getdata = async () =>{
   const respo = await Axios.get(
     `https://api.edamam.com/search?q=${Search}&app_id=${APP_ID}&app_key=${APP_KEY}`
